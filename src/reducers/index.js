@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import authentication from './signin_reducer';
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  authenticated: authentication
 });
 
 export default rootReducer;

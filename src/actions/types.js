@@ -1,0 +1,1 @@
+export const TOGGLE_SIGNIN = 'TOGGLE_SIGNIN';
